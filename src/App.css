@@ -1,0 +1,21 @@
+.backDrop {
+  display: "flex";
+  position: "fixed";
+  top: 0;
+  left: 0;
+  background-color: "rgba(0, 0, 0, 0.5)";
+  height: "100vh";
+  width: "100vw";
+  justify-content: "centre";
+  align-items: "centre";
+  zindex: 1000;
+}
+
+.centreContent {
+  position: "relative";
+  zindex: 1001;
+  width: "60%";
+  maxwidth: "400px";
+  color: "#fff";
+  border: "1px solid black";
+}
